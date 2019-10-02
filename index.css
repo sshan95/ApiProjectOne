@@ -1,0 +1,70 @@
+body {
+    background-color: #ffef96;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  fieldset {
+    background-color:#f4e1d2;
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+    border-color:beige;
+  }
+  
+  .heading {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 20px;
+  }
+  
+  #searchLyrics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+  
+  .button1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: #50394c;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+  
+  .button1:hover {
+    background-color: beige;
+    color: #50394c;
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #js-error-message {
+    color: red;
+  }
